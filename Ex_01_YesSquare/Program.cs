@@ -9,9 +9,9 @@ int number2 = int.Parse(Console.ReadLine() ?? "0");
 
 if (number1 == number2 * number2)
 {
-    Console.WriteLine("Первое число является квадратом второго числа");
+    Console.Write("Число " + number1 + " является квадратом числа " + number2 + " ");
 }
 else 
 {
-    Console.WriteLine("Первое число не является квадратом второго числа");
+    Console.Write("Число " + number1 + " не является квадратом числа " + number2 + " ");
 }
