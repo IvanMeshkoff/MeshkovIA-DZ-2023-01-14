@@ -5,7 +5,7 @@
 Console.Clear();
 Console.Write("Введите трехзначное число: ");
 
-string number1 = Console.ReadLine();
+string number1 = Console.ReadLine() ?? "";
 Console.WriteLine("Вторая цифра этого трехзначного числа будет = " + number1[1]);
 Console.WriteLine();
 
