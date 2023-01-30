@@ -14,6 +14,7 @@ Console.WriteLine();
 Console.Write("Введите трехзначное число: ");
 int number2 = int.Parse(Console.ReadLine() ?? "");
 
+
 while (number2 >= 100)
 {
     number2 /= 10;
