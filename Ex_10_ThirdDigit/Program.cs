@@ -3,7 +3,7 @@ Console.Clear();
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine() ?? "");
 
-if (number >= 1000)
+if (number >= 100)
 {
   while (number >= 1000)
   {
@@ -14,5 +14,5 @@ if (number >= 1000)
 }
 else
 {
-Console.WriteLine($"В числе {number} третьей цифры не существует!");
+  Console.WriteLine($"В числе {number} третьей цифры не существует!");
 }
